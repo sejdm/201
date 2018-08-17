@@ -1,4 +1,5 @@
-% MTH 201 Curves and Surfaces, Fall, 2018
+% MTH 201 Curves and Surfaces 
+% Fall, 2018
 
 # Grading scheme
 - Quizzes: 20%
