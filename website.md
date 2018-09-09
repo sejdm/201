@@ -13,3 +13,4 @@
 - [Problem sheet 3](exercises3.pdf)
 - [Problem sheet 4](exercises4.pdf)
 - [Problem sheet 5](exercises5.pdf) **Updated**
+- [An explanation for the formula of the signed curvature](signedCurvature.pdf)
