@@ -17,3 +17,4 @@
 - [An explanation for the formula of the signed curvature](signedCurvature.pdf)
 
 - [Problem sheet 6](exercises6.pdf)
+- [Problem sheet 7](exercises7.pdf)
