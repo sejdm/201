@@ -42,7 +42,7 @@
 
 6. Prove that the torsion of a curve is the constant function 0 if and only if the curve lies on a plane.
 
-6. Prove that if the torsion of a curve is always 0 and the curvature is always constant, then the curve must lie on a circle (Prove that the curve is at a fixed distance from a particular point, and that therefore it lies on a sphere. Let the osculating circle help you guess what the point should be! By the previous exercise you know that it also lies on a plane so it lies on the intersection of a sphere and plane which is a circle).
+6. Prove that if the torsion of a curve is always 0 and the curvature is constant, then the curve must lie on a circle (Prove that the curve is at a fixed distance from a particular point, and that therefore it lies on a sphere. Let the osculating circle help you guess what the point should be! By the previous exercise you know that it also lies on a plane so it lies on the intersection of a sphere and plane which is a circle).
 
 6. We define the torsion by choosing some unit speed parametrization. Prove that we get the same answer even if we choose a reparametrization that is also a unit speed parametrization (Remember how two unit speed parametrizations relate with each other. First find out how their respective unit tangents, unit normals, and unit binormals relate).
 
