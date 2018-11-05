@@ -2,7 +2,6 @@
 % Practice problem set 10
 
 
-
 1. Compute the first fundamental form with respect to the surface patch $\sigma(x, y) = (f(x)\mathrm{cos}(y), f(x)\mathrm{sin}(y), g(x))$. Why do you think your answer does not involve $g$?
 
 
