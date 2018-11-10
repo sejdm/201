@@ -11,13 +11,9 @@
 
 1. Prove that the geodesic curvature of a curve in a plane (treated as a surface in $\mathbb{R}^3$) is equal to the plane curvature.
 
-1. Compute the second fundamental form, principle curvatures, and the Gaussian curvature of a surface of revolution. Remember that its surface patch is $\sigma(x, y) = (f(x)\mathrm{cos}(y), f(x) \mathrm{sin}(y), g(y))$
-
-1. If you are familiar with the characteristic polynomial, minimal polynomial, and the Cayley Hamilton theorem, then prove that $\mathcal{W}_{p,S}^2 - 2 H \mathcal{W}_{p,S} + K = 0$.
+1. Compute the second fundamental form, principle curvatures, mean curvature, and the Gaussian curvature of a surface of revolution. Remember that its surface patch is $\sigma(x, y) = (f(x)\mathrm{cos}(y), f(x) \mathrm{sin}(y), g(y))$. Use this to compute these quantities for the cylinder and the sphere. (Rememeber that the eigenvalues of a matrix $A$ can be computed by computing the roots of the polynomial, $\mathrm{det}(xI - A)$. This will help you to compute the principle curvatures. This will help you to compute the principle curvatures which can also be used to compute the mean and Gaussian curvatures.)
 
 1. Prove that the Gussian and mean curvatures are smooth functions. This will need you to recall the way we defined smooth functions on a surface.
-
-1. Compute the principle curvatures of the sphere. (Rememeber that the eigenvalues of a matrix $A$ can be computed by computing the roots of the polynomial, $\mathrm{det}(xI - A)$.
 
 1. Remember that $\kappa_n=\langle \dot{\gamma}, \rangle \dot{\gamma}\rangle'$. Rather than using the usual basis for the tangent space, let us use an orthogonal basis of eigenvectors of $\mathcal{W}_{p,S}$. Why does such a basis always exist, even if the principle curvatures are not distinct? Prove that
 	a) If $\dot{\gamma}=\alpha \mathbf{t}_1 + \beta \mathbf{t}_2$, then $\kappa_n = \kappa_1 \alpha^2 + \kappa_2 \beta^2$.
@@ -34,5 +30,6 @@
 	b) Prove that as long as $K$ is non-zero, $\mathbf{n}$ is a regular surface patch for the sphere of radius 1.
 	b) Let $f : U \to \mathbb{R}$ and $g : U \to \mathbb{R}$, where $U$ is an open subset of $\mathbb{R}^2$, be continuous functions. If $B_\delta$ is an open ball of radius $\delta$ in $U$, centred around $(_0, y_0)$, then prove that $\displaystyle\lim_{\delta \to 0} \frac{\int_{B_\delta}f(x, y)g(x, y) \mathrm{d}x\mathrm{d}y}{\int_{B_\delta}g(x, y) \mathrm{d}x\mathrm{d}y}= f(x_0, y_0)$
 	c) Use the fact that $K$ is continuous and the observations in the previous parts to prove that $\displaystyle\lim_{\delta \to 0} \frac{\int_{B_\delta}\mathbf{n}_x \times \mathbf{n}_y\mathrm{d}x\mathrm{d}y}{\int_{B_\delta}\sigma_x \times \sigma_y\mathrm{d}x\mathrm{d}y} = K(x_0, y_0)$. Note that the integral in the denominator is simply the area of the region $\sigma(B_\delta)$ on the surface. Why is the integral in the numerator the area of that image of that region, but on the sphere, under the Gauss map?
+	d) Use this interpretation to compute the Gaussian curvature of the plane, cylinder, and sphere.
 
 1. Since a surface patch, $\sigma$, is smooth, $\sigma_{xxy}=\sigma_{xyx}$. However, each of the vectors $\sigma_{xxy}$ and $\sigma_{xyx}$ can be written in terms of the standard basis $\sigma_x$, $\sigma_y$, $\mathbf{n}$, and, therefore, by comparing coefficients you should discover some relations between $L$, $M$, $N$, and $\Gamma_{ij}^k$. From one of them you will be able to extract an expression of the Gaussian curvature in terms of only $E$, $F$, and $G$ (remember that the Christoffel symbols $\Gamma_{ij}^k$ are only in terms of $E$, $F$, and $G$).
