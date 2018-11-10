@@ -1,6 +1,8 @@
 % MTH 201, Curves and surfaces
 % Practice problem set 12
 
+1. Compute the second fundamental form, principle curvatures, mean curvature, and the Gaussian curvature of a surface of revolution. Remember that its surface patch is $\sigma(x, y) = (f(x)\mathrm{cos}(y), f(x) \mathrm{sin}(y), g(y))$. Use this to compute these quantities for the cylinder and the sphere. (Rememeber that the eigenvalues of a matrix $A$ can be computed by computing the roots of the polynomial, $\mathrm{det}(xI - A)$. This will help you to compute the principle curvatures. This will help you to compute the principle curvatures which can also be used to compute the mean and Gaussian curvatures.)
+
 1. Consider a plane intersecting a surface $S$. If the plane is perpendicular to the tangent space of $S$ at a point lying on the plane, then the intersection is a curve that is called a normal section of the surface. Prove that such a curve has zero geodesic curvature.
 
 1. Generalize the previous exercise as follows: assume that the plane is not perpendicular, but makes an angle $\theta$ wih the tangent plane at $S$. Prove that curvature of the curve of intersection is $\kappa_n/\mathrm{sin}(\theta)$. What about the geodesic curvature?
@@ -11,11 +13,9 @@
 
 1. Prove that the geodesic curvature of a curve in a plane (treated as a surface in $\mathbb{R}^3$) is equal to the plane curvature.
 
-1. Compute the second fundamental form, principle curvatures, mean curvature, and the Gaussian curvature of a surface of revolution. Remember that its surface patch is $\sigma(x, y) = (f(x)\mathrm{cos}(y), f(x) \mathrm{sin}(y), g(y))$. Use this to compute these quantities for the cylinder and the sphere. (Rememeber that the eigenvalues of a matrix $A$ can be computed by computing the roots of the polynomial, $\mathrm{det}(xI - A)$. This will help you to compute the principle curvatures. This will help you to compute the principle curvatures which can also be used to compute the mean and Gaussian curvatures.)
-
 1. Prove that the Gussian and mean curvatures are smooth functions. This will need you to recall the way we defined smooth functions on a surface.
 
-1. Remember that $\kappa_n=\langle \dot{\gamma}, \rangle \dot{\gamma}\rangle'$. Rather than using the usual basis for the tangent space, let us use an orthogonal basis of eigenvectors of $\mathcal{W}_{p,S}$. Why does such a basis always exist, even if the principle curvatures are not distinct? Prove that
+1. Remember that $\kappa_n=\langle \dot{\gamma}, \dot{\gamma}\rangle'$. Rather than using the usual basis for the tangent space, let us use an orthogonal basis of eigenvectors of $\mathcal{W}_{p,S}$. Why does such a basis always exist, even if the principle curvatures are not distinct? Prove that
 	a) If $\dot{\gamma}=\alpha \mathbf{t}_1 + \beta \mathbf{t}_2$, then $\kappa_n = \kappa_1 \alpha^2 + \kappa_2 \beta^2$.
 	b) If $\gamma$ is a unit speed parametrization then $\alpha = \mathrm{cos}(\theta)$ and $\beta = \mathrm{sin}(\theta)$, for some $\theta$. Use part a) to prove that the principle curvatures are the maximum and minimum normal curvatures of all curves passing through the point.
 
