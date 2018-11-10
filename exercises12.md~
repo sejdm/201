@@ -1,0 +1,19 @@
+% MTH 201, Curves and surfaces
+% Practice problem set 12
+
+1. Consider a plane intersecting a surface $S$. If the plane is perpendicular to the tangent space of $S$ at a point lying on the plane, then the intersection is a curve that is called a normal section of the surface. Prove that such a curve has zero geodesic curvature.
+
+1. Generalize the previous exercise as follows: assume that the plane is not perpendicular, but makes an angle $\theta$ wih the tangent plane at $S$. Prove that curvature of the curve of intersection is $\kappa_n/\mathrm{sin}(\theta)$. What about the geodesic curvature?
+
+1. Compute the normal curvature of any curve on the sphere. Can you interpret the answer physically?
+
+1. Compute the geodesic curvature of any circle on a sphere. (A circle on the sphere can always be obtained by intersecting it with a plane.)
+
+1. Compute the second fundamental form, principle curvatures, and the Gaussian curvature of a surface of revolution. Remember that its surface patch is $\sigma(x, y) = (f(x)\mathrm{cos}(y), f(x) \mathrm{sin}(y), g(y))$
+
+1. If you are familiar with the characteristic polynomial, minimal polynomial, and the Cayley Hamilton theorem, then prove that $\mathcal{W}_{p,S}^2 - 2 H \mathcal{W}_{p,S} + K = 0$.
+
+1. Prove that the Gussian and mean curvatures are smooth functions. This will need you to recall the way we defined smooth functions on a surface.
+
+1. Remember that $\kappa_n=\langle \dot{\gamma}, \rangle \dot{\gamma}\rangle'$. Rather than using the usual basis for the tangent space, let us use an orthogonal basis of eigenvectors of $\mathcal{W}_{p,S}$. Why does such a basis always exist, even if the principle curvatures are not distinct? Prove that 
+
