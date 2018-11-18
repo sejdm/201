@@ -1,0 +1,9 @@
+% MTH 201, Curves and surfaces
+% Practice problem set 12
+
+1.  Prove that a curve paramtrized by $\gamma$ is a geodesic if and only if the vector field $\dot{\gamma}$ is parallel along $\gamma$.
+
+1. Prove that the parallel transport map is invertible.
+
+1. Prove that the meridian of a surface of revolution is a geodesic.
+
